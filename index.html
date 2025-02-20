@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/vahalla.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de ASCII Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Vídeo de fundo -->
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="assets/lofi.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <h1>Gerador de ASCII Art</h1>
+        <label for="imageInput" class="upload-button">Escolha uma imagem</label>
+        <input type="file" id="imageInput" accept="image/*">
+        <div id="asciiOutput"></div>
+    </div>
+
+    <!-- Música de fundo -->
+    <audio autoplay loop id="backgroundMusic">
+        <source src="assets/lofi.mp3" type="audio/mp3">
+        Seu navegador não suporta áudio HTML5.
+    </audio>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
